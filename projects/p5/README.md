@@ -215,10 +215,10 @@ Again, it is used exactly like `cout`. For example:
 
 ```c++
 cerr << "Unable to recall doomsday missiles due to" << endl;
-cout << "enemy jamming. Unfortunately, tech support" << endl;
-cout << "will be unavailable after the coming" << endl;
-cout << "apocalypse. Oops." << endl << endl;
-cout << "Have a nice day." << endl;
+cerr << "enemy jamming. Unfortunately, tech support" << endl;
+cerr << "will be unavailable after the coming" << endl;
+cerr << "apocalypse. Oops." << endl << endl;
+cerr << "Have a nice day." << endl;
 ```
 
 **In this project, errors must be printed to `cerr`.**
